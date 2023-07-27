@@ -23,6 +23,7 @@ namespace FixUnableToResolveServiceIssue.Controllers
         public IActionResult GetUser()
         {
             var user = _userService.GetUser();
+
             return Ok(user);
         }
     }
